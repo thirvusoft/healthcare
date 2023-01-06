@@ -1,0 +1,116 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-01-05 19:25:47.795654",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sampleid",
+  "instrument",
+  "position",
+  "time",
+  "bloodlevel",
+  "esr",
+  "correctedesr",
+  "minimumtemperature",
+  "maximumtemperature",
+  "israndom",
+  "isunfinished",
+  "isqc",
+  "level",
+  "meanvalue",
+  "offset"
+ ],
+ "fields": [
+  {
+   "fieldname": "sampleid",
+   "fieldtype": "Int",
+   "label": "SampleID"
+  },
+  {
+   "fieldname": "instrument",
+   "fieldtype": "Data",
+   "label": "Instrument"
+  },
+  {
+   "fieldname": "position",
+   "fieldtype": "Int",
+   "label": "Position"
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Data",
+   "label": "Time"
+  },
+  {
+   "fieldname": "bloodlevel",
+   "fieldtype": "Data",
+   "label": "BloodLevel"
+  },
+  {
+   "fieldname": "esr",
+   "fieldtype": "Data",
+   "label": "ESR"
+  },
+  {
+   "fieldname": "correctedesr",
+   "fieldtype": "Data",
+   "label": "CorrectedESR"
+  },
+  {
+   "fieldname": "israndom",
+   "fieldtype": "Select",
+   "label": "IsRandom",
+   "options": "\ntrue\nfalse"
+  },
+  {
+   "fieldname": "isunfinished",
+   "fieldtype": "Select",
+   "label": "IsUnfinished",
+   "options": "\ntrue\nfalse"
+  },
+  {
+   "fieldname": "isqc",
+   "fieldtype": "Select",
+   "label": "IsQC",
+   "options": "\ntrue\nfalse"
+  },
+  {
+   "fieldname": "level",
+   "fieldtype": "Data",
+   "label": "Level"
+  },
+  {
+   "fieldname": "meanvalue",
+   "fieldtype": "Data",
+   "label": "MeanValue"
+  },
+  {
+   "fieldname": "offset",
+   "fieldtype": "Data",
+   "label": "Offset"
+  },
+  {
+   "fieldname": "minimumtemperature",
+   "fieldtype": "Data",
+   "label": "MinimumTemperature"
+  },
+  {
+   "fieldname": "maximumtemperature",
+   "fieldtype": "Data",
+   "label": "MaximumTemperature"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-01-06 11:15:20.093650",
+ "modified_by": "Administrator",
+ "module": "health",
+ "name": "Compound Test Result",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
